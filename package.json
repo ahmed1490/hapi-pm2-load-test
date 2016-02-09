@@ -1,0 +1,14 @@
+{
+  "name": "hapi-example",
+  "version": "1.0.0",
+  "description": "Messing with hapi and node load testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmed abbas",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^13.0.0"
+  }
+}
