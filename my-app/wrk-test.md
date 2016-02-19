@@ -2,9 +2,9 @@
 
 ```
 #### no pm2
-➜  wrk git:(master) ✗ ./wrk -t25 -c25 -d30s https://fjord-pm209.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t25 -c25 -d30s https://fjord-pm209/cart
 
-Running 30s test @ https://fjord-pm209.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm209/cart
   25 threads and 25 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     1.80s   252.98ms   1.99s    94.66%
@@ -16,9 +16,9 @@ Transfer/sec:      0.89MB
 
 
 #### 2 node pm2
-➜  wrk git:(master) ✗ ./wrk -t25 -c25 -d30s https://fjord-pm208.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t25 -c25 -d30s https://fjord-pm208/cart
 
-Running 30s test @ https://fjord-pm208.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm208/cart
   25 threads and 25 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   630.98ms  202.98ms   1.89s    81.20%
@@ -31,9 +31,9 @@ Transfer/sec:      2.90MB
 
 ```
 #### no pm2
-➜  wrk git:(master) ✗ ./wrk -t25 -c30 -d30s https://fjord-pm209.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t25 -c30 -d30s https://fjord-pm209/cart
 
-Running 30s test @ https://fjord-pm209.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm209/cart
   25 threads and 30 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     1.82s   265.02ms   2.00s    93.95%
@@ -45,9 +45,9 @@ Transfer/sec:      0.91MB
 
 
 #### 2 node pm2
-➜  wrk git:(master) ✗ ./wrk -t25 -c30 -d30s https://fjord-pm208.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t25 -c30 -d30s https://fjord-pm208/cart
 
-Running 30s test @ https://fjord-pm208.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm208/cart
   25 threads and 30 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   618.14ms  242.83ms   1.73s    74.04%
@@ -59,9 +59,9 @@ Transfer/sec:      2.95MB
 
 ```
 #### no pm2
-➜  wrk git:(master) ✗ ./wrk -t30 -c30 -d30s https://fjord-pm209.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t30 -c30 -d30s https://fjord-pm209/cart
 
-Running 30s test @ https://fjord-pm209.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm209/cart
   30 threads and 30 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     1.10s   539.91ms   1.96s    58.33%
@@ -73,9 +73,9 @@ Transfer/sec:      0.93MB
 
 
 #### 2 node pm2
-➜  wrk git:(master) ✗ ./wrk -t30 -c30 -d30s https://fjord-pm208.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t30 -c30 -d30s https://fjord-pm208/cart
 
-Running 30s test @ https://fjord-pm208.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm208/cart
   30 threads and 30 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   715.12ms  222.22ms   1.90s    81.00%
@@ -88,9 +88,9 @@ Transfer/sec:      2.90MB
 
 ```
 #### no pm2
-➜  wrk git:(master) ✗ ./wrk -t20 -c40 -d30s https://fjord-pm209.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t20 -c40 -d30s https://fjord-pm209/cart
 
-Running 30s test @ https://fjord-pm209.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm209/cart
   20 threads and 40 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   955.10ms  315.76ms   1.33s    77.27%
@@ -102,9 +102,9 @@ Transfer/sec:      0.92MB
 
 
 #### 2 node pm2
-➜  wrk git:(master) ✗ ./wrk -t20 -c40 -d30s https://fjord-pm208.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t20 -c40 -d30s https://fjord-pm208/cart
 
-Running 30s test @ https://fjord-pm208.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm208/cart
   20 threads and 40 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   950.47ms  298.35ms   1.99s    80.41%
@@ -117,9 +117,9 @@ Transfer/sec:      2.74MB
 
 ```
 #### no pm2
-➜  wrk git:(master) ✗ ./wrk -t20 -c100 -d30s https://fjord-pm209.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t20 -c100 -d30s https://fjord-pm209/cart
 
-Running 30s test @ https://fjord-pm209.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm209/cart
   20 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency    36.38ms   76.25ms   1.98s    99.26%
@@ -132,9 +132,9 @@ Transfer/sec:    847.29KB
 
 
 #### 2 node pm2
-➜  wrk git:(master) ✗ ./wrk -t20 -c100 -d30s https://fjord-pm208.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t20 -c100 -d30s https://fjord-pm208/cart
 
-Running 30s test @ https://fjord-pm208.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm208/cart
   20 threads and 100 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     1.23s   477.58ms   2.00s    57.72%
@@ -147,9 +147,9 @@ Transfer/sec:      2.52MB
 
 ```
 #### no pm2
-➜  wrk git:(master) ✗ ./wrk -t40 -c40 -d30s https://fjord-pm209.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t40 -c40 -d30s https://fjord-pm209/cart
 
-Running 30s test @ https://fjord-pm209.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm209/cart
   40 threads and 40 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     1.09s   522.83ms   1.92s    57.89%
@@ -161,9 +161,9 @@ Transfer/sec:      0.92MB
 
 
 #### 2 node pm2
-➜  wrk git:(master) ✗ ./wrk -t40 -c40 -d30s https://fjord-pm208.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t40 -c40 -d30s https://fjord-pm208/cart
 
-Running 30s test @ https://fjord-pm208.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm208/cart
   40 threads and 40 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   887.02ms  277.89ms   1.97s    79.68%
@@ -176,9 +176,9 @@ Transfer/sec:      2.94MB
 
 ```
 #### no pm2
-➜  wrk git:(master) ✗ ./wrk -t50 -c50 -d30s https://fjord-pm209.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t50 -c50 -d30s https://fjord-pm209/cart
 
-Running 30s test @ https://fjord-pm209.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm209/cart
   50 threads and 50 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency    43.24ms  112.29ms   1.97s    98.38%
@@ -191,9 +191,9 @@ Transfer/sec:    825.50KB
 
 
 #### 2 node pm2
-➜  wrk git:(master) ✗ ./wrk -t50 -c50 -d30s https://fjord-pm208.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t50 -c50 -d30s https://fjord-pm208/cart
 
-Running 30s test @ https://fjord-pm208.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm208/cart
   50 threads and 50 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     1.13s   177.14ms   1.99s    86.57%
@@ -206,9 +206,9 @@ Transfer/sec:      2.94MB
 
 ```
 #### no pm2
-➜  wrk git:(master) ✗ ./wrk -t50 -c70 -d30s https://fjord-pm209.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t50 -c70 -d30s https://fjord-pm209/cart
 
-Running 30s test @ https://fjord-pm209.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm209/cart
   50 threads and 70 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency    38.40ms   89.29ms   1.94s    99.03%
@@ -221,9 +221,9 @@ Transfer/sec:    808.97KB
 
 
 #### 2 node pm2
-➜  wrk git:(master) ✗ ./wrk -t50 -c70 -d30s https://fjord-pm208.coast-staging.zalan.do/cart
+➜  wrk git:(master) ✗ ./wrk -t50 -c70 -d30s https://fjord-pm208/cart
 
-Running 30s test @ https://fjord-pm208.coast-staging.zalan.do/cart
+Running 30s test @ https://fjord-pm208/cart
   50 threads and 70 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     1.06s   253.43ms   1.99s    84.29%
